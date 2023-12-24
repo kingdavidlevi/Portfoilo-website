@@ -1,0 +1,115 @@
+.holder {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 40px;
+    background-color: rgba(61, 123, 255, 0.2);
+    border-radius: 10px;
+}
+
+.carousel {
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider {
+    height: 100%;
+    width: 300%; /*factor*/
+    display: flex;
+    transform: translate(-0%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.slider section {
+    flex-basis: 100%;
+}
+
+.control .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+    color: #4d7aff;
+    font-size: 20px;
+}
+
+.control .left01 {
+    left: 5%;
+}
+
+.control .right01 {
+    right: 5%;
+}
+
+.image img {
+    width: 100%;
+    max-width: 400px;
+    min-width: 260px;
+}
+
+.block {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.block-text {
+    margin-left: 30px;
+}
+
+.block-text-lower {
+
+}
+
+.caro-buttons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.caro-buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #4d7aff;
+}
+
+.maintenance {
+    text-align: center;
+}
+
+.inner__template {
+    position: relative;
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+    .block-text {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .block {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+    }
+
+    .block-text-lower {
+        margin: 0 auto;
+    }
+
+    .carousel {
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width: 542px) {
+    .holder {
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px 10px;
+        border-radius: 0;
+    }
+}

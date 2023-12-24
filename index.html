@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levi king David | UI Designer and Front-end Developer</title>
+    <!--CSS styles-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/carousel.css">
+
+    <!--PWA links-->
+    <link rel="apple-touch-icon" size="180x180" href="./img/photos/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/photos/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/photos/favicon-16x16.png">
+    <link rel="mainfest" href="./site.webmanifest">
+
+    <!-- Poppins font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/c4dc7d69bd.js" crossorigin="anonymous"></script>
+
+    <!--GSAP Animation-->
+    <script src="./libs/gsap.min.js" defer></script>
+    <script src="./libs/ScrollTrigger.min.js" defer></script>
+    <script src="./libs/ScrollSmoother.min.js" defer></script>
+    <script src="./js/animate.js" defer></script>
+    <script src="https://kit.fontawesome.com/c4dc7d69bd.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js" defer></script>
+</head>
+<body id="large-header" class="large-header">
+    <canvas id="demo-canvas"></canvas>
+    <header class="contain">
+        <div>
+            <div class="icon--con blur-load">
+                <img src="img/photos/Obiorah Ebuka Bryan.JPG" alt="img" class="icon--left" loading="lazy">
+            </div>
+            <div class="icon--con1">
+                <img src="img/photos/OBRYAN_LOGO.png" alt="img" loading="lazy">
+            </div>
+        </div>
+        <div class="links">
+            <a href="https://github.com/kingdavidlevi" target="_blank"><div><img src="./img/icons/GitHub.png" alt="img"></div> Github</a>
+            <a href="https://www.linkedin.com/in/obiorah-bryan" target="_blank"><div><img src="./img/icons/linkedin-50.png" alt="img"></div>LinkedIn</a>
+            <a href="https://twitter.com/BryanObiorah?t=WCQ7ceSH4soA36aFYyTiBw&s=09" target="_blank"><div><img src="./img/icons/twitter-50.png" alt="img"></div>Twitter</a>
+            <a href="mailto:ebival4reel@gmail.com" target="_blank"><div><img src="./img/icons/emailcurved.png" alt="img"></div>Email</a>
+        </div>
+        <div class="menu">
+            <label class="hamburger">
+                <input type="checkbox" class="ham">
+                <svg viewBox="0 0 32 32">
+                <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+                <path class="line" d="M7 16 27 16"></path>
+                </svg>
+            </label>
+        </div>
+    </header>
+    <i class="fa-solid fa-compass"></i>
+    <section class="fixed__menu">
+        <a href="#"><div><i class="fa-solid fa-house ran"></i>Home</div></a>
+        <a href="#about"><div><i class="fa-solid fa-address-card ran"></i>About</div></a>
+        <a href="#experience"><div><i class="fa-solid fa-user-tie ran"></i>Experience</div></a>
+        <a href="#contact__section"><div><i class="fa-solid fa-taxi ran"></i>Services</div></a>
+        <a href="#portfolio"><div><i class="fa-solid fa-briefcase ran"></i>Portfolio</div></a>
+        <a href="#Contact_me"><div><i class="fa-solid fa-address-book ran"></i>Contact Me</div></a>
+    </section>
+    <nav>
+        <div class="nav_comp">
+            <div>
+                <a href="#"><h3>Levi King David</h3></a>
+            </div>
+            <div class="links__01">
+                <a href="https://github.com/obiorahbryan" target="_blank"><div><img src="./img/icons/GitHub.png" alt="img"></div> Github</a>
+                <a href="https://www.linkedin.com/in/obiorah-bryan" target="_blank"><div><img src="./img/icons/linkedin-50.png" alt="img"></div>LinkedIn</a>
+                <a href="https://twitter.com/BryanObiorah?t=WCQ7ceSH4soA36aFYyTiBw&s=09" target="_blank"><div><img src="./img/icons/twitter-50.png" alt="img"></div>Twitter</a>
+                <a href="mailto:ebival4reel@gmail.com" target="_blank"><div><img src="./img/icons/emailcurved.png" alt="img"></div>Email</a>
+                <a href="./OBIORAH BRYAN resume.pdf" target="_blank"><div class="resume">Resume</div></a>
+            </div>
+        </div>
+    </nav>
+    <main class="main__contents contain">
+        <div>
+            <p class="lin">Hi 👋🏾, my name is</p>
+            <h1 class="main__name lin">Levi King David</h1>
+            <h1 class="main__cap lin">I love Building Software</h1>
+            <p class="main__desc lin">I'm a Software Engineer with expertise in web development, mobile app development & DevOps. crafts visually appealing and user-friendly interfaces.</p>
+            <a href="./OBIORAH BRYAN resume.pdf" target="_blank">
+                <button class="button">
+                    <span class="button_lg">
+                        <span class="button_sl"></span>
+                        <span class="button_text">Resume</span>
+                    </span>
+                </button>
+            </a>
+            
+        </div>
+        <div class="image_wrapper">
+            <div class="image_main blur-load" >
+                <img class="bighead" src="/img/photos/Bryan_dev.png" alt="" loading="lazy">
+            </div>
+        </div>
+    </main>
+    <section id="about">
+        <div class="about__head abt"><h1>About Me</h1></div>
+        <div class="about__section contain">
+            <div class="about__image blur-load">
+                <img src="./img/photos/Bryan.JPG" alt="image" loading="lazy" class="image_face">
+            </div>
+            <div class="about__text">
+                <p>
+                    Hi there! I'm King David, a frontend/web developer with a strong passion for creating well-architected software solutions that address real-world challenges. Over the past few years, I've had the opportunity to collaborate on a variety of exciting projects, such as web applications, mobile apps, decentralized applications (DApps), serverless functions, and cloud infrastructure. <br><br> My core interests in web development involve key aspects such as HTML & CSS, JavaScript frameworks & libraries, responsive design principles, performance optimization, and accessibility standards. <br><br> As a frontend/Web developer with a diverse career path, I've been fortunate enough to build my expertise through a mix of contract projects, freelancing, and continously contributing to open-source initiatives.
+                </p>
+                <div class="about__logos">
+                    <h2>Some Tech Stacks I use</h2>
+                    <div class="table">
+                        <div class="pack">
+                            <div><img src="./img/icons/JavaScript-logo.png" style="border-radius: 50%;" alt="img"></div>
+                            <div>JavaScript</div>
+                        </div>
+                        <div class="pack">
+                            <div><img src="./img/icons/C lang.png" alt="img"></div>
+                            <div>C Lang</div>
+                        </div>
+                        <div class="pack">
+                            <div><img src="./img/icons/React JS.png" alt="img"></div>
+                            <div>React</div>
+                        </div>
+                        <div class="pack">
+                            <div><img src="./img/icons/HTML.png" alt="img"></div>
+                            <div>HTML</div>
+                        </div>
+                        <div class="pack">
+                            <div><img src="./img/icons/Git Bash.png" alt="img"></div>
+                            <div>Git Bash</div>
+                        </div>
+                        <div class="pack">
+                            <div><img src="./img/icons/Git.png" alt="img"></div>
+                            <div>Git</div>
+                        </div>
+                        <div class="pack">
+                            <div><img src="./img/icons/GitHub.png" alt="img"></div>
+                            <div>GitHub</div>
+                        </div>
+                        <div class="pack">
+                            <div><img src="./img/icons/Python.png" alt="img"></div>
+                            <div>Python</div>
+                        </div>
+                        <div class="pack">
+                            <div><img src="./img/icons/vim.png" alt="img"></div>
+                            <div>Vim</div>
+                        </div>
+                        <div class="pack">
+                            <div><img src="./img/icons/VS code.png" alt="img"></div>
+                            <div>VS code</div>
+                        </div>
+                        <div class="pack">
+                            <div><img src="./img/icons/CSS.png" alt="img"></div>
+                            <div>CSS</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience">
+            <div class="about__head exp"><h1>Experience</h1></div>
+            <div class="timeline contain">
+                <div class="container right">
+                    <div class="content">
+                        <h1>Web Developer <span class="highlight">@E-Commerce</span></h1>
+                        <p>Built an E-Commerce Application</p>
+                        <div class="small_descript">
+                            <div><i class="fa-solid fa-angle-right"></i></div>
+                            <div>Enabling Sustainable, Efficient, Affordable, Scalable, and high perfomance Accessibibility .</div>
+                        </div>
+                        <div class="small_descript">
+                            <div><i class="fa-solid fa-angle-right"></i></div>
+                            <div>Created an Avenue where customers could easily buy, add to cart and purchase commodities at any given time.</div>
+                        </div>
+                        <div class="small_descript">
+                            <div><i class="fa-solid fa-angle-right"></i></div>
+                            <div>User details and information are highly secured due to the https security experience we used in the project</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container left">
+                    <div class="content">
+                        <h1>Web Developer <span class="highlight">@Shopify</span></h1>
+                        <p>Shopify DashBoard</p>
+                        <div class="small_descript">
+                            <div><i class="fa-solid fa-angle-right"></i></div>
+                            <div>Built a DashBoard for customers, a user friendly interface that helps to keep track of customers preference.</div>
+                        </div>
+                        <div class="small_descript">
+                            <div><i class="fa-solid fa-angle-right"></i></div>
+                            <div>The project was solo built, it was actually a Hakathon challenge </div>
+                        </div>
+                        <div class="small_descript">
+                            <div><i class="fa-solid fa-angle-right"></i></div>
+                            <div>Worked with Html Css JavaScript to make a wonderful user experience. </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                        <h1>Frontend Engineer <span class="highlight">@Wakaspace</span></h1>
+                        <p>November 2021- October 2022 (London, UK)</p>
+                        <div class="small_descript">
+                            <div><i class="fa-solid fa-angle-right"></i></div>
+                            <div>Led the development of a template feature, that enables merchants to sell event tickets, as well as accept donations and investments using cryptocurrency.</div>
+                        </div>
+                        <div class="small_descript">
+                            <div><i class="fa-solid fa-angle-right"></i></div>
+                            <div>Led the development of a subscription feature that enables merchants to request recurring payments from customers using cryptocurrency.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container left">
+                    <div class="content">
+                        <h1>Web Developer<span class="highlight"> @LexTego</span></h1>
+                        <p>September 2021 - December 2021 (London, United Kingdom)</p>
+                        <div class="small_descript">
+                            <div><i class="fa-solid fa-angle-right"></i></div>
+                            <div>Contributed to the development of an open source solution that helps detect fraudulent financial transactions.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                        <h1>Freelance Full Stack Developer <span class="highlight">@Fiverr</span></h1>
+                        <p>August 2019 - December 2021 (Remote)</p>
+                        <div class="small_descript">
+                            <div><i class="fa-solid fa-angle-right"></i></div>
+                            <div>Delivered a number of full-stack applications to clients from different parts of the world.</div>
+                        </div>
+                        <div class="small_descript">
+                            <div><i class="fa-solid fa-angle-right"></i></div>
+                            <div>Worked with languages, tools & frameworks like Javascript, NodeJs, Express, GSAP, WordPress & Firebase.</div>
+                        </div>
+                        <div class="small_descript">
+                            <div><i class="fa-solid fa-angle-right"></i></div>
+                            <div>Became a Level 2 seller with over 80 successful gigs completed with an average rating of over 4.8/5 stars</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="portfolio">
+        <div>
+            <div class="about__head prt"><h1>Portfolio</h1></div>
+            <p class="sub-cap">Some previous works. click on the arrow sign to view more projects.</p>
+            <div class="inner__template newspace">
+                <div class="holder">
+                    <div class="carousel">
+                        <div class="slider">
+                            <section class="dynamicslide">
+                                <div class="block">
+                                    <div class="caro-image"><img src="./img/photos/Frame 1.png" alt="" width="250px"></div>
+                                    <div class="block-text">
+                                        <div class="block-text-upper"><h2>Exclusive</h2></div>
+                                        <div class="block-text-lower"><p>Exclusive is an E-Commerce  Website that was developed using some frontend framework like React , tailwindcss and Firebase for data storage. </p></div>
+                                        <div></div>
+                                        <div class="caro-buttons">
+                                            
+                                            <a href="https://www.qatari.finance" target="_blank">Live</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="dynamicslide">
+                                <div class="block">
+                                    <div class="caro-image"><img src="./img/photos/temp_pengrad.jpg" alt="" width="250px"></div>
+                                    <div class="block-text">
+                                        <div class="block-text-upper"><h2>Pengrad Website</h2></div>
+                                        <div class="block-text-lower"><p>Pengrad is a hire writers platform where clients can hire writers to write for their business or company. Tech Stacks: HTML, CSS, JS, NodeJS, ExpressJS & Nodemailer.</p></div>
+                                        <div></div>
+                                        <div class="caro-buttons">
+                                            <a href="https://pengrad.netlify.app" target="_blank">Demo</a>
+                                            <a href="https://www.pengrad.com" target="_blank">Live</a>
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div class="control">
+                    <span class="arrow left01"><i class="fa-solid fa-chevron-left"></i></span>
+                    <span class="arrow right01"><i class="fa-solid fa-chevron-right"></i></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact__section">
+        <div class="contact__sub contain">
+            <div class="contact__left">
+                <h1>Need My Services?</h1>
+                <p>
+                    Reach out. lets create that amazing project.
+                    <br><br>
+                    I create high quality & audience-specific modern websites that communicate your brand values and help you stay ahead of the competition.
+    Send me a message now to get started!
+                </p>
+             <a href="https://wa.me/09067774541">  <button><div>Contact Me</div> <i class="fa-brands fa-whatsapp"></i></button> </a> 
+            </div>
+            <div class="contact__right">
+                <img src="./img/photos/Bryan_dev.png" alt="img" loading="lazy">
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <div class="about__head"><h1>Testimonials</h1></div>
+        <p class="sub-cap">What my past clients say</p>
+        
+        <div class="slide-container contain">
+            <div class="testimonial">
+                <div class="testi-content">
+                    <div class="slide">
+                        <div class="test__top">
+                            <div class="test__img">
+                                <img src="./img/photos/Queen.jpg" alt="image">
+                            </div>
+                            <div class="test__upper">
+                                <div class="test__name">
+                                    <h3>Ukachi Queen</h3>
+                                    <p>CEO, Pengrad</p>
+                                </div>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="test__lower">
+                            <p>He Developed our website without hassle. His approach is top-notch. Will definitely keep working with him.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Contact_me">
+        <div class="about__head"><h1>Contact Me</h1></div>
+        <div class="contain">
+        <p class="sub-cap">Get in touch</p>
+        <div class="form_area">
+            <form>
+                <div>
+                    <div class="upper_form">
+                        <div class="fname_title">
+                            <label for="fname">Name</label>
+                            <input type="text" name="fname" id="fname" required>
+                        </div>
+                        <div class="email_title">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                    </div>
+
+                    <div class="description">
+                        <div class="desc_title">
+                            <label for="description">Describe the Services you need</label>
+                        <textarea name="description" id="description" required></textarea>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="form_button">
+                        <button id="sendMyGmails"><div>Send Message</div><i class="fa-solid fa-envelope"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        </div>
+    </section>
+    <script src="./js/app.js"></script>
+    <script src="./js/carousel.js"></script>
+</body>
+</html>
