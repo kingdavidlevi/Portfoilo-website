@@ -66,3 +66,85 @@ $('form').on('submit', (e) => {
         console.log('Server received our data');
     });
 })
+
+
+
+
+
+
+
+/*const express = require('express');
+const bodyParser = require('body-parser');
+const nodemailer = require('nodemailer');
+
+const app = express();
+const port = 3000;
+
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+
+app.post('/email', (req, res) => {
+    const { email, name, text } = req.body;
+
+    // Your email sending logic goes here
+    // Example using nodemailer
+    const transporter = nodemailer.createTransport({
+        service: 'gmail',
+        auth: {
+            user: 'levikingdavid@gmail.com',
+            pass: 'D@2001vid'
+        }
+    });
+
+    const mailOptions = {
+        from: 'levikingdavid@gmail.com',
+        to: 'levikingdavid@gmail.com', // your email address
+        subject: `New Message from ${name}`,
+        text: `Email: ${email}\n\nMessage: ${text}`
+    };
+
+    transporter.sendMail(mailOptions, (error, info) => {
+        if (error) {
+            return console.error(error);
+        }
+        console.log('Email sent: ' + info.response);
+    });
+
+    res.sendStatus(200); // Send a success response to the client
+});
+
+app.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
+});
+*/
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const textContainer = document.getElementById('text-container')
+    const textparagraph = textContainer.querySelectorAll('p.lin')
+
+     const firstParagraph = textparagraph[0]
+    
+
+    const words = firstParagraph.innerText.split(" ")
+
+    text.innerHTML = words.map(function (word) {
+        return '<span class="word">' + word + '</span>';
+    }).join(" ");
+
+
+
+    const wordspan = document.querySelectorAll('.word');
+     const wordAarray = Array.from(wordspan)
+
+    function revealwords(){
+        wordAarray.forEach(function(word,index){
+            setTimeout(function() {
+                word.style.transform = 'translateY(0)'
+            },index * 500)
+        })
+    }
+
+    revealwords()
+})
