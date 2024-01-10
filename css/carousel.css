@@ -4,12 +4,14 @@
     padding: 30px 40px;
     background-color: rgba(61, 123, 255, 0.2);
     border-radius: 10px;
+    
 }
 
 .carousel {
     height: 300px;
     position: relative;
     overflow: hidden;
+   
 }
 
 .slider {
@@ -18,6 +20,7 @@
     display: flex;
     transform: translate(-0%);
     transition: transform 0.3s ease-in-out;
+    
 }
 
 .slider section {
