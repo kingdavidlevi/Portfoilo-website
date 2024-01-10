@@ -439,15 +439,15 @@ a {
 .about__image {
     background-image: url(../img/photos/WhatsApp\ Image\ 2024-01-10\ at\ 08.41.06_9115194e.jpg);
     background-size: cover;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     margin-bottom: 3em;
     position: relative;
 }
 
 .about__image .image_face {
     width: 250px;
-    height: 250px;
+    height: 300px;
     position: absolute;
     top: 5;
     left: 0;
