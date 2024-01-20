@@ -75,8 +75,8 @@ header > div {
 }
 .icon--con {
     position: relative;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     overflow: hidden;
     border-radius: 100%;
     background-image: url(../img/photos/Obiorah\ Ebuka\ Bryan-small.jpg);
@@ -84,7 +84,7 @@ header > div {
 }
 
 .icon--left {
-    width: 50px;
+    width: 65px;
     height: default;
     transform: translateX(-3px);
 }
